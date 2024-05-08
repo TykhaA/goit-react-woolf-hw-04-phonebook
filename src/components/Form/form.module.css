@@ -1,0 +1,30 @@
+.form{
+   border: 1px solid #cccc;
+   padding: 16px;
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   align-items: baseline;
+}
+.wrap_field{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.label{
+    font-weight: 500;
+    font-size: 16px;
+}
+.field{
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: 1px solid #cccc;
+    font-size: 14px;
+}
+.btn{
+    padding: 6px 12px;
+    background-color:#ffff;
+    border-radius: 8px;
+    border: 1px solid #cccc;
+    cursor: pointer;
+}
